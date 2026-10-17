@@ -1,0 +1,14 @@
+{
+  "name": "turbo-rush-3d",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "three": "curl -L -o www/three.min.js https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+    "android": "npx cap add android && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/cli": "^6.1.0",
+    "@capacitor/core": "^6.1.0"
+  }
+}
